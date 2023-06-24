@@ -1,0 +1,101 @@
+@keyframes move-it {
+    0% {
+        background-position: initial;
+    }
+    100% {
+        background-position: 100px 0px;
+    }
+}
+
+#ramen {
+    background: repeating-linear-gradient(
+            45deg,
+            #606dbc,
+            #606dbc 5%,
+            #465298 5%,
+            #465298 10%
+    );
+    background-size: 100px 100px;
+    animation: move-it 2s linear infinite;
+    font-family: "Droid Sans";
+}
+#pizza {
+    background: repeating-linear-gradient(
+            45deg,
+            #FFB533,
+            #FFB533 5%,
+            #E79300 5%,
+            #E79300 10%
+    );
+    background-size: 100px 100px;
+    animation: move-it 2s linear infinite;
+    font-family: "Droid Sans";
+}
+#curry {
+    background: repeating-linear-gradient(
+            45deg,
+            #AFFF8F,
+            #AFFF8F 5%,
+            #4EE412 5%,
+            #4EE412 10%
+    );
+    background-size: 100px 100px;
+    animation: move-it 2s linear infinite;
+    font-family: "Droid Sans";
+}
+
+body{
+
+}
+
+.box{
+    border-style: solid;
+    background: rgba(158, 157, 157, 0.3);
+    margin-top: 30px;
+}
+
+.but{
+    margin-top: 30px;
+    float: right;
+    border-style: groove;
+    border-color: red;
+}
+
+img{
+    border-style: solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    float: right;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    float: left;
+}
+
+#right{
+    float: right;
+}
+
+#left{
+    float: left;
+}
+
